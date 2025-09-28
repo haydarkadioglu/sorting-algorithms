@@ -25,7 +25,7 @@ A comprehensive Python application for visualizing multiple sorting algorithms w
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/haydarkadioglu/sorting-algorithms
    cd sorting-algorithms
    ```
 
