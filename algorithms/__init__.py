@@ -5,5 +5,9 @@ This package contains all sorting algorithm implementations.
 
 from .base_algorithm import SortingAlgorithmBase
 from .quicksort import QuickSortAlgorithm
+from .bubblesort import BubbleSortAlgorithm
+from .selectionsort import SelectionSortAlgorithm
+from .mergesort import MergeSortAlgorithm
+from .insertionsort import InsertionSortAlgorithm
 
-__all__ = ['SortingAlgorithmBase', 'QuickSortAlgorithm']
+__all__ = ['SortingAlgorithmBase', 'QuickSortAlgorithm', 'BubbleSortAlgorithm', 'SelectionSortAlgorithm', 'MergeSortAlgorithm', 'InsertionSortAlgorithm']
