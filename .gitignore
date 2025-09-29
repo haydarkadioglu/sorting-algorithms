@@ -1,3 +1,5 @@
-algorithm/__pycache__/
-algorithms\__pycache__
+/algorithm/__pycache__/
+/algorithms\__pycache__
 data/__pycache__/
+*.pyc
+__pycache__/

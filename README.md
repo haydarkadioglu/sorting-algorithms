@@ -21,6 +21,34 @@ A comprehensive Python application for visualizing multiple sorting algorithms w
 - **Type**: Divide and conquer algorithm
 - **Stability**: Not stable
 
+### Bubble Sort
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1)
+- **Best Case**: O(n) - when array is already sorted
+- **Type**: Simple comparison-based algorithm
+- **Stability**: Stable
+
+### Selection Sort
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1)
+- **Best Case**: O(n²) - always the same performance
+- **Type**: Simple selection-based algorithm
+- **Stability**: Not stable
+
+### Merge Sort
+- **Time Complexity**: O(n log n)
+- **Space Complexity**: O(n)
+- **Best Case**: O(n log n) - always consistent performance
+- **Type**: Divide and conquer algorithm
+- **Stability**: Stable
+
+### Insertion Sort
+- **Time Complexity**: O(n²)
+- **Space Complexity**: O(1)
+- **Best Case**: O(n) - when array is already sorted
+- **Type**: Incremental construction algorithm
+- **Stability**: Stable
+
 ## Installation
 
 1. **Clone the Repository**:
@@ -135,6 +163,67 @@ Quick Sort is a highly efficient divide-and-conquer algorithm that:
 - Recursive call visualization
 - Detailed status information
 
+### Bubble Sort
+
+Bubble Sort is a simple comparison-based sorting algorithm that:
+
+1. **Compares Adjacent Elements**: Goes through the list comparing neighboring elements
+2. **Swaps if Necessary**: Swaps elements if they are in the wrong order
+3. **Bubbles Up**: Larger elements "bubble" to the end of the array
+4. **Repeats Passes**: Continues until no more swaps are needed
+
+**Visualization Features**:
+- Color-coded elements (comparing, swapping, sorted)
+- Step-by-step comparison process
+- Pass-by-pass visualization
+- Early termination when sorted
+
+### Selection Sort
+
+Selection Sort is a simple comparison-based sorting algorithm that:
+
+1. **Divides Array**: Splits the array into sorted and unsorted parts
+2. **Finds Minimum**: Finds the smallest element in the unsorted part
+3. **Swaps Elements**: Swaps the minimum with the first unsorted element
+4. **Moves Boundary**: Expands the sorted part by one element
+
+**Visualization Features**:
+- Color-coded elements (current position, minimum, comparing, sorted)
+- Step-by-step minimum finding process
+- Clear boundary between sorted and unsorted parts
+- Detailed comparison explanations
+
+### Merge Sort
+
+Merge Sort is an efficient divide-and-conquer algorithm that:
+
+1. **Divides**: Splits the array into two halves recursively
+2. **Conquers**: Sorts each half independently
+3. **Combines**: Merges the sorted halves back together
+4. **Guarantees**: Consistent O(n log n) performance in all cases
+
+**Visualization Features**:
+- Color-coded subarrays (left, right, merged)
+- Step-by-step divide and conquer process
+- Clear merge operation visualization
+- Recursive call tracking
+
+### Insertion Sort
+
+Insertion Sort is a simple and intuitive algorithm that:
+
+1. **Starts Small**: Considers the first element as sorted
+2. **Takes Next Element**: Picks the next unsorted element
+3. **Finds Position**: Compares and finds the correct insertion position
+4. **Shifts Elements**: Moves larger elements one position right
+5. **Inserts**: Places the element in its correct position
+
+**Visualization Features**:
+- Color-coded elements (current, comparing, shifting, sorted)
+- Step-by-step insertion process
+- Clear boundary between sorted and unsorted parts
+- Detailed shifting visualization
+
 ## Contributing
 
 Contributions are welcome! The modular architecture makes it easy to add new algorithms:
@@ -157,7 +246,7 @@ This project is open source and available under the MIT License.
 
 ## Future Enhancements
 
-- [ ] Additional sorting algorithms (Merge Sort, Heap Sort, Bubble Sort, etc.)
+- [ ] Additional sorting algorithms (Heap Sort, Radix Sort, Shell Sort, etc.)
 - [ ] Algorithm comparison mode
 - [ ] Performance statistics
 - [ ] Sound effects
